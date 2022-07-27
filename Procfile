@@ -1,1 +1,1 @@
-web: python tg_answer_bot/answer_bot.py
+worker: python tg_answer_bot/answer_bot.py
