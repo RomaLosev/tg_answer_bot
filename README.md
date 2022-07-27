@@ -26,9 +26,13 @@ source venv/scripts/activate #for windows
 pip install -r requirements.txt
 ```
 ---
-Создать и заполнить файл `.env`
+**Создать и заполнить файл `.env`**
 
-* TELEGRAM_TOKEN = 'str'
+`TELEGRAM_TOKEN = 'str' `
 
 ---
+**Зарегистрировать бота у [BotFather](https://t.me/BotFather)**
+
+---
+
 Запустить файл `answer_bot.py`
