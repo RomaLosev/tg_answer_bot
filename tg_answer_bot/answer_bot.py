@@ -42,7 +42,7 @@ async def answer_handler(message: Message) -> None:
     """
     Handler will answer for some questions
     """
-    logging.info(f'User {message.from_user.full_name},  ask something')
+    logging.info(f'User {message.from_user.full_name}, asks {message.text}')
     try:
         if is_part_in_list(message.text, drink_question):
             await message.answer(text=random.choice(drink))
