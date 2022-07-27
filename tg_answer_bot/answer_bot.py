@@ -21,7 +21,7 @@ greet_kb.add(button)
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    filename='main.log',
+    filename='../main.log',
     level=logging.INFO,
     filemode='a'
 )
